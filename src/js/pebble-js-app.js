@@ -16,11 +16,14 @@ function getPrice() {
                 if (req.readyState == 4) {
                         if(req.status == 200) {
 								var value;
+								var output;
                                 rates = response = JSON.parse(req.responseText);
 								value = response.value;
+								output = "1 DOGE = " + value + " BTC";
 								console.log("Asking price is " + value + ".");
+								console.log(output);
                                 var message = {
-								"value": value.toString()
+								"value": output.toString()
                                 };
                                 
                                 console.log("Sending...");

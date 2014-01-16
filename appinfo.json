@@ -1,14 +1,16 @@
 {
     "versionLabel": "1.0",
     "uuid": "015f546b-4f84-4648-a956-cb846df7a820",
-    "appKeys": {},
+    "appKeys": {
+        "value": 0
+    },
     "longName": "DogeWatch",
     "versionCode": 1,
     "capabilities": [
         ""
     ],
     "shortName": "DogeWatch",
-    "companyName": "geekmaster",
+    "companyName": "Ryan Morash",
     "watchapp": {
         "watchface": false
     },
