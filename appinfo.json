@@ -1,0 +1,24 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "015f546b-4f84-4648-a956-cb846df7a820",
+    "appKeys": {},
+    "longName": "DogeWatch",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "DogeWatch",
+    "companyName": "geekmaster",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "font",
+                "name": "FONT_COMIC_SANS_25",
+                "file": "fonts/2086.ttf"
+            }
+        ]
+    }
+}
