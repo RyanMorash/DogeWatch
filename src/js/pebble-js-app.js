@@ -18,11 +18,13 @@ function getPrice() {
 								var value;
 								var output;
 								var micro;
-                                rates = response = JSON.parse(req.responseText);
+                                 rates = response = JSON.parse(req.responseText);
 								value = response.value;
 								console.log("Asking price is " + value + ".");
-								micro = value*1000000;
-								output = "1 DOGE" + "\n = \n" + micro + " " + "\xB5" + "BTC";
+								micro = parseFloat(value) * parseFloat(1000000);
+								console.log(micro);
+								var display = micro.toFixed(2);
+								output = "1 DOGE" + "\n = \n" + display + " " + "\xB5" + "BTC";
 								console.log(output);
                                 var message = {
 								"value": output.toString()
